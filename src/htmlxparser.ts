@@ -4,7 +4,8 @@ import parse5, {
     DefaultTreeTextNode,
 } from 'parse5';
 import { parse } from 'svelte/compiler';
-import { Node } from 'estree-walker';
+// import { Node } from 'estree-walker';
+import { Node } from 'svelte/compiler';
 
 function walkAst(doc: DefaultTreeElement, action: (c: DefaultTreeElement) => void) {
     action(doc);

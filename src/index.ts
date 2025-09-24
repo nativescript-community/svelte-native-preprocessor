@@ -46,7 +46,7 @@ export default function preprocess() {
                 throw error;
             }
            
-            walk(ast, { 
+            walk(ast as any, { 
                 enter: (node: Node, parent: Node, prop: string, index: number) => {
                     expandBindOnTagElements(node);
                 }
