@@ -1,6 +1,6 @@
 # Svelte Native Preprocessor
 
-A pre processor for [Svelte-Native](https://github.com/halfnelson/svelte-native).
+A pre processor for [Svelte-Native](https://github.com/nativescript-community/svelte-native).
 
 It performs the following transforms to provide a better developer experience when using Svelte-Native:
 
@@ -12,7 +12,7 @@ It performs the following transforms to provide a better developer experience wh
 Using `nativescript-webpack >= 5.0.0` add to your `svelte.config.js`
 
 ```js
-const svelteNativePreprocessor = require("./svelte-native-preprocessor");
+const svelteNativePreprocessor = require("@nativescript-community/svelte-native-preprocessor");
 
 module.exports = {
     compilerOptions: {
